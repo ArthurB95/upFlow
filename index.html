@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0148b1ffbf.js" crossorigin="anonymous"></script>
+
+  <title> CALCULADORA </title>
+</head>
+
+<body>
+
+  <header>
+
+    <h1> CALCULADORA </h1>
+
+  </header>
+
+  <body>
+
+    <section>
+      <div>
+
+        <p>
+          Digite a quantidade de números que deseja adicionar:
+        </p>
+
+        <input type="number" name="quantidade" id="quantidade">
+        <input type="button" value="Aplicar" id="aplicar" onclick="aplicar()">
+
+
+      </div>
+
+      <div style="display:flex; flex-direction: column;" id="dados">
+
+
+      </div>
+
+      <div id="resultados">
+
+        <input type="button" value="Realizar Soma" onclick="realizarSoma()">
+        <input type="button" value="Realizar Subtração" onclick="realizarSubtracao()">
+
+      </div>
+
+      <div id="resultado">
+
+
+      </div>
+
+      <div id="limpar">
+
+        <input type="button" value="Limpar" onclick="limpar()">
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <div id="linkedin">
+
+      
+          <button class="btn-linkedin">
+            <a class="limpar-frase" href="https://www.linkedin.com/in/arthur-bicalho-a16b0516a/">           
+              <i class="fab fa-linkedin"></i>
+              <strong class="frase-linkedin"> Para acessar o meu LinkedIn basta clicar nessa frase </strong> </a>
+        
+      </button>
+
+      </div>
+
+      <a href="http://upflow.me/"> <img class="logoUp" src="Imagem - Logo/uf_logo_branco_horizontal.png" alt="upFlow"></a>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

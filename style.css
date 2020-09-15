@@ -1,0 +1,88 @@
+body {
+  background: #0351b5;
+  font: normal 15pt Arial;
+  color:black;
+  }
+  
+  header {
+  color: white;
+  text-align: center;
+  
+  }
+  
+  section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 700px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(75, 75, 75);
+  }
+  
+  footer {
+  color:white;
+  text-align: center;
+  font-style: italic;
+  }
+  
+  div {
+  
+    text-align: center;
+    padding: 8px;
+  
+  }
+  
+  h1 {
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  img {
+  
+    width: 250px
+    
+    }
+
+.logoUp {
+    text-align: center;
+    padding: 55px;
+}
+
+#dados input {
+  margin-bottom: 10px;
+}
+
+.limpar-frase{
+  color: #0351b5;
+  text-decoration: none;
+}
+
+.frase-linkedin{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-linkedin {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0 0 5px 0;
+  width: 500px;
+  height: 80px;
+  box-shadow: 5px 5px 10px rgb(75, 75, 75);
+}
+
+.btn-linkedin:hover{
+  transform: translateY(-5px);
+  transition: .5s;
+}
+
+.frase-linkedin:hover{
+  font-size: 25px;
+}
+
+
+
+
+
